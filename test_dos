@@ -1,0 +1,15 @@
+
+
+# Haz una funcion multiplicar que no utilice el simbolo de multiplicación #
+
+
+def multiply (num_one,num_dos):
+
+    result = 0
+    for rep in range (num_one):
+        result += num_dos
+    return result
+
+
+total = multiply (5,4)
+print (total)
