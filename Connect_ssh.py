@@ -5,7 +5,6 @@ from getpass import getpass
 HOST = '' #Insert IP adress to connect
 USER = 'root'
 
-if __name__=='__main__':
     try:
 
         client = paramiko.SSHClient()
