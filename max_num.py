@@ -16,3 +16,19 @@ def max_dos (lista):
     return inicio
 
 print(max_dos(lista))
+
+#Escribir una lista de palabras y que una funcion devuelva la mas larga.
+
+
+lista_palabras = ["hola", "Mañana", "Camioneta","sol"]
+
+def mas_larga (lista_palabras):
+   mas_larga = ""
+   for i in lista_palabras:
+       if len(i)>len(mas_larga):
+           mas_larga = i
+   return mas_larga
+
+print("La palabras mas larga es: ", mas_larga(lista_palabras))
+
+
